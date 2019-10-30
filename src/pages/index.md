@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: 馬の上ではいつも心地よい風を感じる
-image: /img/home-jumbotron2.jpg
+image: /img/home-jumbotron.jpg
 heading: 我々が提供するもの
 subheading: 育成調教技術者養成研修
 mainpitch:
