@@ -1,21 +1,14 @@
 ---
 templateKey: index-page
-title: Great coffee with a conscience
+title: 馬の上ではいつも心地よい風を感じる
 image: /img/home-jumbotron.jpg
-heading: Great coffee with a conscience
-subheading: Support sustainable farming while enjoying a cup
+heading: 我々が提供するもの
+subheading: 育成調教技術者養成研修
 mainpitch:
-  title: Why Kaldi
-  description: >
-    Kaldi is the coffee store for everyone who believes that great coffee
-    shouldn't just taste good, it should do good too. We source all of our beans
-    directly from small scale sustainable farmers and make sure part of the
-    profits are reinvested in their communities.
+  title: BTC
+  description: ' 「世界に通用する馬づくり」を目指し、イギリスのニューマーケットやフランスのシャンティイに匹敵する育成調教場として平成5年10月7日に開場。'
 description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+  日高育成総合施設軽種馬育成調教場の運営・管理及び貸与および競走馬の育成に携わりたい人間を受け入れての育成調教技術者養成研修、競走馬育成に関わる各種研究や普及などを行っている公益法人です。
 intro:
   blurbs:
     - image: /img/coffee.png
@@ -68,3 +61,4 @@ main:
     alt: Coffee beans
     image: /img/products-grid1.jpg
 ---
+
