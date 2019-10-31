@@ -16,6 +16,14 @@ module.exports = {
       },
     },
     {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        host: 'https://btc2020g.netlify.com/',
+        sitemap: 'https://btc2020g.netlify.com/sitemap.xml',
+        policy: [{ userAgent: '*', Disallow: '/' }]
+      }
+    },
+    {
       resolve: 'gatsby-source-filesystem',
       options: {
         path: `${__dirname}/src/pages`,
@@ -35,14 +43,7 @@ module.exports = {
       resolve: 'gatsby-transformer-remark',
       options: {
         plugins: [
-/*           {
-            resolve: 'gatsby-plugin-robots-txt',
-            options: {
-              host: 'https://www.example.com',
-              sitemap: 'https://www.example.com/sitemap.xml',
-              policy: [{ userAgent: '*', allow: '/' }]
-            }
-          }, */          
+
           {
             resolve: 'gatsby-remark-relative-images',
             options: {
