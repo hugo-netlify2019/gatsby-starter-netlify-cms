@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import github from '../img/github-icon.svg'
-import logo from '../img/logo.svg'
+/* import github from '../img/github-icon.svg' */
+import logo from '../img/logo2-2.svg'
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -39,13 +39,17 @@ const Navbar = class extends React.Component {
         role="navigation"
         aria-label="main-navigation"
       >
-        <div className="container">
+      <ul>
+        <li>
+{/*         <div className="container"> */}
+        <div className="full-width-image-top margin-top-0">
           <div className="navbar-brand">
-            <Link to="/" className="navbar-item" title="Logo">
-              <img src={logo} alt="Kaldi" style={{ width: '88px' }} />
+            {/* <Link to="/" className="navbar-item" title="Logo"> */}
+            <Link to="/" title="Logo">
+              <img src={logo} alt="btc" style={{ height:  '120px' }} />
             </Link>
             {/* Hamburger menu */}
-            <div
+{/*             <div
               className={`navbar-burger burger ${this.state.navBarActiveClass}`}
               data-target="navMenu"
               onClick={() => this.toggleHamburger()}
@@ -54,28 +58,44 @@ const Navbar = class extends React.Component {
               <span />
               <span />
             </div>
+ */}      
           </div>
+        </div>
+        </li>        
+        <li>
+        <div className="container">
           <div
             id="navMenu"
             className={`navbar-menu ${this.state.navBarActiveClass}`}
           >
-            <div className="navbar-start has-text-centered">
+            <div className="navbar-start navbar-end has-text-centered">
               <Link className="navbar-item" to="/about">
-                About
+                調教場の利用
               </Link>
-              <Link className="navbar-item" to="/products">
-                Products
+              <Link className="navbar-item" to="/about">
+                馬の仕事
+              </Link>
+              <Link className="navbar-item" to="/about">
+                その他
+              </Link>
+              <Link className="navbar-item" to="/about">
+                BTCについて
+              </Link>
+
+{/*               <Link className="navbar-item" to="/products">
+                馬の仕事
               </Link>
               <Link className="navbar-item" to="/blog">
-                Blog
+                その他
               </Link>
               <Link className="navbar-item" to="/contact">
-                Contact
+                BTCについて
               </Link>
-              <Link className="navbar-item" to="/contact/examples">
+ */}{/*               <Link className="navbar-item" to="/contact/examples">
                 Form Examples
-              </Link>
+              </Link> */}
             </div>
+{/*             
             <div className="navbar-end has-text-centered">
               <a
                 className="navbar-item"
@@ -88,8 +108,11 @@ const Navbar = class extends React.Component {
                 </span>
               </a>
             </div>
-          </div>
+ */}
+           </div>
         </div>
+        </li>
+        </ul>
       </nav>
     )
   }

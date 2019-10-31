@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: 馬の上ではいつも心地よい風を感じる
-image: /img/home-jumbotron.jpg
+image: /img/home-jumbotron2.png
 heading: 我々が提供するもの
 subheading: 育成調教技術者養成研修
 mainpitch:
@@ -11,34 +11,34 @@ description: >-
   日高育成総合施設軽種馬育成調教場の運営・管理及び貸与および競走馬の育成に携わりたい人間を受け入れての育成調教技術者養成研修、競走馬育成に関わる各種研究や普及などを行っている公益法人です。
 intro:
   blurbs:
-    - image: /img/coffee.png
+    - image: /img/index-info01.jpg
       text: >
-        We sell green and roasted coffee beans that are sourced directly from
-        independent farmers and farm cooperatives. We’re proud to offer a
-        variety of coffee beans grown with great care for the environment and
-        local communities. Check our post or contact us directly for current
-        availability.
-    - image: /img/coffee-gear.png
+        約1500ヘクタールの広大な敷地の中に、
+        グラス馬場、グラス坂路、
+        世界最大級の1千メートル屋内直線、
+        600メートル屋内トラック、
+        1200・1600メートルダート直線、
+        800メートルトラック(平成6年)、
+        2400メートル坂路芝馬場(平成6年)、
+        1600メートルトラック(平成8年)、
+        1千メートル屋内坂路馬場(平成11年竣工、平成18年延長)を管理運営してます。
+    - image: /img/index-info02.jpg
       text: >
-        We offer a small, but carefully curated selection of brewing gear and
-        tools for every taste and experience level. No matter if you roast your
-        own beans or just bought your first french press, you’ll find a gadget
-        to fall in love with in our shop.
-    - image: /img/tutorials.png
+        競馬にデビューする前の若馬を育成するための騎乗技術や、
+        育成技術を学ぶ研修を北海道で行っています。
+        壮大なスケールのBTC調教場を使用した、
+        他にはない騎乗指導を行い、
+        初心者でも十分な技術を習得する事が出来ます。
+    - image: /img/index-info03.jpg
       text: >
-        Love a great cup of coffee, but never knew how to make one? Bought a
-        fancy new Chemex but have no clue how to use it? Don't worry, we’re here
-        to help. You can schedule a custom 1-on-1 consultation with our baristas
-        to learn anything you want to know about coffee roasting and brewing.
-        Email us or call the store for details.
-    - image: /img/meeting-space.png
+        「強い馬づくり」の一環として、
+        軽種馬の競走能力の向上に資するために「運動科学に関する調査」と
+        「育成期のトレーニング障害に関する調査」等の調査研究をすすめています。
+        また、育成調教技術の改善・普及を図るため国内外の専門家を講師に招き、講演会・講習会を行っています。
+    - image: /img/index-info04.jpg
       text: >
-        We believe that good coffee has the power to bring people together.
-        That’s why we decided to turn a corner of our shop into a cozy meeting
-        space where you can hang out with fellow coffee lovers and learn about
-        coffee making techniques. All of the artwork on display there is for
-        sale. The full price you pay goes to the artist.
-  heading: What we offer
+        育成調教技術者のブログ
+  heading: What we offer2
   description: >
     Kaldi is the ultimate spot for coffee lovers who want to learn about their
     java’s origin and support the farmers that grew it. We take coffee

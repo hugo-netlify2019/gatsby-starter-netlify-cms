@@ -35,6 +35,14 @@ module.exports = {
       resolve: 'gatsby-transformer-remark',
       options: {
         plugins: [
+/*           {
+            resolve: 'gatsby-plugin-robots-txt',
+            options: {
+              host: 'https://www.example.com',
+              sitemap: 'https://www.example.com/sitemap.xml',
+              policy: [{ userAgent: '*', allow: '/' }]
+            }
+          }, */          
           {
             resolve: 'gatsby-remark-relative-images',
             options: {
