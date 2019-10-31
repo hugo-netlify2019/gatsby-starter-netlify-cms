@@ -1,11 +1,12 @@
 ---
-templateKey: 'blog-post'
-title: 'Just in: small batch of Jamaican Blue Mountain in store next week'
+templateKey: blog-post
+title: 来春採用予定の職員の募集を開始しました
 date: 2017-01-04T15:04:10.000Z
+description: |-
+  令和2年度 職員の募集
+  総合職／一般職（事務・技術職）／教官（競走馬の育成調教技術者指導員）
 featuredpost: true
-description: >-
-  We’re proud to announce that we’ll be offering a small batch of Jamaica Blue
-  Mountain coffee beans in our store next week.
+featuredimage: /img/info04.png
 tags:
   - jamaica
   - green beans
