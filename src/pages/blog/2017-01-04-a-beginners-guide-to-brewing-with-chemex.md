@@ -1,10 +1,10 @@
 ---
 templateKey: blog-post
-title: A beginners’ guide to brewing with Chemex
+title: 牧場で働こうセミナーｉｎＪＲＡ阪神競馬場に出店します
 date: 2017-01-04T15:04:10.000Z
+description: 牧場で働こうセミナーｉｎＪＲＡ阪神競馬場にＢＴＣブースを出店します
 featuredpost: false
-featuredimage: /img/chemex.jpg
-description: Brewing with a Chemex probably seems like a complicated, time-consuming ordeal, but once you get used to the process, it becomes a soothing ritual that's worth the effort every time.
+featuredimage: /img/info01-01.png
 tags:
   - brewing
   - chemex
