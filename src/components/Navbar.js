@@ -79,6 +79,7 @@ const Navbar = class extends React.Component {
             padding: '0.25em',
             marginLeft: 'auto',
             marginRight: 'auto',
+            fontSize:'0.8em',
           }}
           >
           公益財団法人 
@@ -99,6 +100,7 @@ const Navbar = class extends React.Component {
             padding: '0.25em',
             marginLeft: 'auto',
             marginRight: 'auto',
+            fontSize:'0.9em',
           }}
           >
               BroadHorse Training Center

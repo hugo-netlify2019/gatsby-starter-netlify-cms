@@ -3,9 +3,11 @@ module.exports = {
     title: 'Gatsby + Netlify CMS Starter',
     description:
       'This repo contains an example business website that is built with Gatsby, and Netlify CMS.It follows the JAMstack architecture by using Git as a single source of truth, and Netlify for continuous deployment, and CDN distribution.',
+    siteUrl: `https://btc2020g.netlify.com/`,
   },
   plugins: [
     'gatsby-plugin-react-helmet',
+    `gatsby-plugin-sitemap`,
     'gatsby-plugin-sass',
     {
       // keep as first gatsby-source-filesystem plugin for gatsby image support
@@ -20,7 +22,7 @@ module.exports = {
       options: {
         host: 'https://btc2020g.netlify.com/',
         sitemap: 'https://btc2020g.netlify.com/sitemap.xml',
-        policy: [{ userAgent: '*', Disallow: '/' }]
+        policy: [{ userAgent: '*', disallow: '/' }]
       }
     },
     {
