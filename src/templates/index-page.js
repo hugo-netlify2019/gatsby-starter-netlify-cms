@@ -58,8 +58,8 @@ export const IndexPageTemplate = ({
             color: 'white',
             lineHeight: '1',
             padding: '0.25em',
-            "margin-left": 'auto',
-            "margin-right": 'auto',
+            marginLeft: 'auto',
+            marginRight: 'auto',
           }}
         >
           {subheading}

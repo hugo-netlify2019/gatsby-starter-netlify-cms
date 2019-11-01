@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 /* import github from '../img/github-icon.svg' */
-import logo from '../img/logo2-3.svg'
+import logo from '../img/logo2-5.svg'
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -43,11 +43,11 @@ const Navbar = class extends React.Component {
         <li>
 {/*         <div className="container"> */}
         <div className="full-width-image-top margin-top-0">
-          <div className="navbar-brand">
+          <div className="navbar-brand navbar-start navbar-end has-text-centered">
             {/* <Link to="/" className="navbar-item" title="Logo"> */}
             <Link to="/" title="Logo">
               {/* <img src={logo} alt="btc" style={{ height:  '120px' }} /> */}
-              <img src={logo} alt="btc" />
+              <img src={logo} alt="btc" style={{ height:  '80px' }} />
             </Link>
             {/* Hamburger menu */}
 {/*             <div
@@ -59,9 +59,63 @@ const Navbar = class extends React.Component {
               <span />
               <span />
             </div>
- */}      
+ */}
+            <div         style={{
+          display: 'flex',
+          lineHeight: '1',
+          justifyContent: 'space-around',
+          alignItems: 'left',
+          flexDirection: 'column',
+            }}
+          >
+            <h4
+          className="has-text-weight is-size-6-mobile is-size-6-tablet is-size-5-widescreen"
+          style={{
+            boxShadow:
+              'rgb(255, 68, 0, 0) 0.5rem 0px 0px, rgb(255, 68, 0, 0) -0.5rem 0px 0px',
+            backgroundColor: 'rgb(255, 68, 0, 0)',
+            color: 'white',
+            lineHeight: '1',
+            padding: '0.25em',
+            marginLeft: 'auto',
+            marginRight: 'auto',
+          }}
+          >
+          公益財団法人 
+          <span className="has-text-weight-bold" style={{
+            fontSize:'1.1em',
+          }}>
+            軽種馬調教育成センター
+          </span>
+          </h4>
+          <h4
+          className="has-text-weight is-size-6-mobile is-size-6-tablet is-size-5-widescreen"
+          style={{
+            boxShadow:
+              'rgb(255, 68, 0, 0) 0.5rem 0px 0px, rgb(255, 68, 0, 0) -0.5rem 0px 0px',
+            backgroundColor: 'rgb(255, 68, 0, 0)',
+            color: 'white',
+            lineHeight: '1',
+            padding: '0.25em',
+            marginLeft: 'auto',
+            marginRight: 'auto',
+          }}
+          >
+              BroadHorse Training Center
+           </h4>
+            {/* Hamburger menu */}
+             <div
+              className={`navbar-burger burger ${this.state.navBarActiveClass}`}
+              data-target="navMenu"
+              onClick={() => this.toggleHamburger()}
+            >
+              <span />
+              <span />
+              <span />
+            </div>
+            </div>
           </div>
-        </div>
+        </div>          
         </li>        
         <li>
         <div className="container">
